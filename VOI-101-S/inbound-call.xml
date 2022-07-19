@@ -3,5 +3,5 @@
     &lt;Say voice="Polly.Olivia-Neural">Hello I am Olivia.&lt;/Say>
     &lt;Say voice="Polly.Hans">Hello I am Hans.&lt;/Say>
     
-    <Play>http://demo.twilio.com/docs/classic.mp3</Play>
+    &lt;Play>http://demo.twilio.com/docs/classic.mp3&lt;/Play>
 &lt;/Response>
