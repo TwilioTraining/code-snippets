@@ -1,0 +1,7 @@
+&lt;Response>
+    &lt;Say language="en-GB">Hello I am Emma.&lt;/Say>
+    &lt;Say voice="Polly.Olivia-Neural">Hello I am Olivia.&lt;/Say>
+    &lt;Say voice="Polly.Hans">Hello I am Hans.&lt;/Say>
+    
+    <Play>http://demo.twilio.com/docs/classic.mp3</Play>
+&lt;/Response>
