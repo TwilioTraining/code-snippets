@@ -6,8 +6,8 @@ const client = require("twilio")(accountSid, authToken);
 client.messages
   .create({
     body: "Hello there 👋🏻",
-    from: "your_twilio_number",
+    from: process.env.TWILIO_NUMBER,
     mediaUrl: ["https://demo.twilio.com/owl.png"],
-    to: "your_private_number",
+    to: process.env.OWNER_NUMBER,
   })
   .then((message) => console.log(message.sid));

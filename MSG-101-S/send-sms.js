@@ -6,7 +6,7 @@ const client = require("twilio")(accountSid, authToken);
 client.messages
   .create({
     body: "Hi there!",
-    from: "your_twilio_number",
-    to: "your_private_number",
+    from: process.env.TWILIO_NUMBER,
+    to: process.env.OWNER_NUMBER,
   })
   .then((message) => console.log(message.sid));

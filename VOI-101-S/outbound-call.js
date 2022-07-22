@@ -1,11 +1,12 @@
-const accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-const authToken = "your_auth_token";
+require("dotenv").config();
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = require("twilio")(accountSid, authToken);
 
 client.calls
   .create({
     url: "http://demo.twilio.com/docs/voice.xml",
-    from: "your_twilio_number",
-    to: "your_private_number",
+    from: process.env.TWILIO_NUMBER,
+    to: process.env.OWNER_NUMBER,
   })
   .then((call) => console.log(call.sid));
