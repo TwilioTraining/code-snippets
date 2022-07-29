@@ -1,0 +1,7 @@
+&lt;Response>
+    &lt;Gather input="speech dtmf" timeout="3" numDigits="1"
+    action="https://xxx.ngrok.io">
+        &lt;Say>Press any digit or say something.&lt;/Say>
+    &lt;/Gather>
+    &lt;Say>We didn't receive any input. Goodbye!&lt;/Say>
+&lt;/Response>

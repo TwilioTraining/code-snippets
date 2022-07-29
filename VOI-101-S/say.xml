@@ -1,0 +1,5 @@
+&lt;Response>
+    &lt;Say>Hello I am the default voice.&lt;/Say>
+    &lt;Say voice="Polly.Olivia-Neural">Hello I am Olivia.&lt;/Say>
+    &lt;Say voice="Polly.Hans">Hello I am Hans.&lt;/Say>
+&lt;/Response>

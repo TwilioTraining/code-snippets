@@ -1,0 +1,4 @@
+&lt;Response>
+    &lt;Say voice="alice">Thanks for trying our documentation. Enjoy!&lt;/Say>
+    &lt;Play>http://demo.twilio.com/docs/classic.mp3&lt;/Play>
+&lt;/Response>

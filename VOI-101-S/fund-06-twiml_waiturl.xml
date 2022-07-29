@@ -1,0 +1,4 @@
+&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;Response>
+    &lt;Enqueue waitUrl="wait-music.xml">support&lt;/Enqueue>
+&lt;/Response>

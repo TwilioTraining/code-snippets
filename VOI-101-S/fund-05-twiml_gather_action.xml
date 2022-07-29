@@ -1,0 +1,10 @@
+&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;Response>
+    &lt;Gather action="https://yourdomain.com/processGatheredDigits" method="GET">
+        &lt;Say>
+            Please enter your account number,
+            followed by the pound sign
+        &lt;/Say>
+    &lt;/Gather>
+    &lt;Say>We didn't receive any input. Goodbye!&lt;/Say>
+&lt;/Response>
