@@ -1,4 +1,4 @@
 $ twilio api:conversations:v1:conversations:participants:create \
     --conversation-sid CHxxx \
-    --messaging-binding.address "<Your Personal Mobile Number>" \
-    --messaging-binding.proxy-address "<Your purchased Twilio Phone Number>"
+    --messaging-binding.address "YOUR_NUMBER" \
+    --messaging-binding.proxy-address "YOUR_TWILIO_NUMBER"

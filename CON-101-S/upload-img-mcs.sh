@@ -1,1 +1,1 @@
-$ curl -u “<account_sid>:<account_secret>” --data-binary “@<filename>” https://mcs.us1.twilio.com/v1/Services/<chat_service_sid>/Media
+$ curl -u "ACCOUNT_SID:AUTH_TOKEN" --data-binary "@FILENAME" https://mcs.us1.twilio.com/v1/Services/CHAT_SERVICE_SID/Media
