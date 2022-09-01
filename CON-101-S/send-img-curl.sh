@@ -1,1 +1,1 @@
-$ curl -u "ACCOUNT_SID:AUTH_TOKEN" -X POST https://conversations.twilio.com/v1/Conversations/CONVERSATION_SID/Messages -d MediaSid=MEDIA_SID
+$ curl -u "ACCOUNT_SID:AUTH_TOKEN" -X POST https://conversations.twilio.com/v1/Conversations/CONVERSATION_SID/Messages -d MediaSid=MEDIA_SID --data-urlencode "Author=testPineapple"
