@@ -1,0 +1,1 @@
+$ curl -u "ACCOUNT_SID:AUTH_TOKEN" --data-binary "@FILENAME" https://mcs.us1.twilio.com/v1/Services/CONVERSATION_SERVICE_SID/Media -H "Content-Type: image/png"
